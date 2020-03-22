@@ -1,0 +1,18 @@
+#root {
+  display: flex;
+  justify-content: center;
+  padding-top: 4em;
+}
+.App {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 2em;
+  background-color: #feff9c;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.list {
+  list-style: circle;
+}
