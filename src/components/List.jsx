@@ -9,9 +9,9 @@ function List({ todos, onCheck }) {
 
   return (
     <Component className="list">
-      {todos.map(todo => (
+      {todos.map((todo, idx) => (
         <ListItem
-          key={todo.id}
+          key={idx}
           text={todo.text}
           id={todo.id}
           onCheck={() => onCheck(todo.id)}

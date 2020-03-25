@@ -24,9 +24,11 @@ const INITIAL_STATE = [
 export default function App() {
   console.log("Render App");
 
+  // Application state
   const [todos, setTodos] = React.useState(INITIAL_STATE);
   const [inputValue, setInputValue] = React.useState("");
 
+  // State update functions
   const handleChange = React.useCallback(ev => {
     setInputValue(ev.target.value);
   }, []);
