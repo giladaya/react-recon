@@ -7,12 +7,23 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   padding: 2em;
   background-color: #feff9c;
+  height: 50vh;
+  width: 30vw;
 }
 
 h1 {
   margin-top: 0;
 }
 
+button {
+  float: right;
+}
+
 .list {
   list-style: circle;
+}
+
+li {
+  margin-bottom: 0.5em;
+  width: 100%;
 }
